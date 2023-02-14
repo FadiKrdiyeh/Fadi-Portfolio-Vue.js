@@ -1,4 +1,7 @@
-# my-second-vue-project
+# My portfolio
+```
+Life Demo: https://fadi-krdiyeh.netlify.app
+```
 
 ## Project setup
 ```
