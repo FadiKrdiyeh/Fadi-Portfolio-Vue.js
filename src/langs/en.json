@@ -1,0 +1,72 @@
+{
+  "header": {
+    "Fadi ": "Fadi ",
+    "Krdiyeh": "Krdiyeh",
+    "Home": "Home",
+    "Resume": "Resume",
+    "Portfolio": "Portfolio",
+    "Contact": "Contact"
+  },
+  "homePage": {
+    "Fadi Krdiyeh": "Fadi Krdiyeh",
+    "Full-stack Web Developer": "Full-stack Web Developer",
+    "Web Developer": "Web Developer",
+    "Web Designer": "Web Designer",
+    "Front-End Developer": "Front-End Developer",
+    "Back-End Developer": "Back-End Developer",
+    "About": "About",
+    "Me": "Me",
+    "About me text": "Hi! I'm Fadi Krdiyeh. Form Syria and I'm { msg } years old. I'm a full-stack developer who is passionate about building great user experience, fighting for simplicity over complexity and constantly learning. When i'm not coding you'll find me learning more and more.",
+    "Facebook:": "Facebook:",
+    "Telegram:": "Telegram:",
+    "Instagram:": "Instagram:",
+    "E-mail:": "E-mail:",
+    "WhatsApp And Phone Number:": "WhatsApp And Phone Number:"
+  },
+  "resume": {
+    "Experience": "Experience",
+    "Education": "Education",
+    "present": "present",
+    "Full Stack Developer": "Full Stack Developer",
+    "Front End Developer": "Front End Developer",
+    "Back End Developer": "Back End Developer",
+    "Applied College": "Applied College",
+    "Computer Technology Sciences": "Computer Technology Sciences",
+    "Computer Technical Institute": "Computer Technical Institute",
+    "Graduated From Computer Technical Institute": "Graduated From Computer Technical Institute",
+    "My skills": "My skills",
+    "Others:": "Others:",
+    "Microsoft office": "Microsoft office.",
+    "The ability to learn anything quickly": "The ability to learn anything quickly.",
+    "Remote working": "Remote working.",
+    "Im social and I accept advices and warnings": "I'm social, and I accept advices and warnings.",
+    "Soon I will probably learn other things like Wordpress React Angular ASPNet Photoshop etc": "Soon, I will probably learn other things like Wordpress, React, Angular, ASP.Net, Photoshop, etc...",
+    "Download Resume": "Download Resume"
+  },
+  "portfolio": {
+    "Sorry, There Is No Hosted Projects Except This Now": "Sorry, There Is No Hosted Projects Except This Now!!"
+  },
+  "contact": {
+    "GetIn": "GetIn",
+    "Touch": "Touch",
+    "Syria": "Syria, ",
+    "Hama - Salamiyeh": "Hama - Salamiyeh",
+    "Freelance": "Freelance",
+    "Available": "Available",
+    "Contact": "Contact",
+    "Form": "Form",
+    "Name": "Name",
+    "Email": "Email",
+    "Message": "Message",
+    "Send Message": "Send Message",
+    "Clear": "Clear"
+  },
+  "error": {
+    "PAGE NOT FOUND": "PAGE NOT FOUND",
+    "Home": "Home"
+  },
+  "footer": {
+    "Developed With": "Developed With",
+    "And": "And"
+  }
+}

@@ -1,0 +1,23 @@
+body {
+  overflow-y: scroll;
+}
+* {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  background-color: #636363d0;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.575),
+    rgba(0, 0, 0, 0.567)
+  );
+  border-radius: 15px;
+}
+.light-theme,
+.dark-theme {
+  padding-top: 100px;
+  height: 100%;
+  width: 100%;
+}

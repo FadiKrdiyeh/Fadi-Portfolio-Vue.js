@@ -1,0 +1,145 @@
+.arabic-locale {
+  /* Start Header */
+  .header {
+    .nav {
+      .links {
+        .nav-item {
+          .aaa {
+            &::after {
+              background: linear-gradient(
+                to left,
+                rgb(215, 0, 0) 0%,
+                #333 100%
+              ) !important;
+            }
+            &.router-link-active {
+              &::after {
+                box-shadow: 15px 0 10px rgb(215 0 0) !important;
+              }
+              @media (max-width: 767px) {
+                margin-left: 0;
+                margin-right: 60px;
+              }
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+              font-size: 12px;
+            }
+            @media (min-width: 992px) and (max-width: 1199px) {
+              font-size: 15px;
+            }
+          }
+          @media (min-width: 768px) and (max-width: 991px) {
+            padding: 5px;
+          }
+          &.switch-theme-btn,
+          &.switch-language-btn {
+            .aaa {
+              span {
+                @media (min-width: 768px) and (max-width: 991px) {
+                  font-size: 14px;
+                }
+                @media (min-width: 992px) and (max-width: 1199px) {
+                  font-size: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* End Header */
+
+  /* Start Resume */
+  .resume {
+    > .row {
+      .education-experience {
+        .education-experience-body {
+          .lifetime {
+            &::before {
+              right: 30px;
+            }
+            .lifetime-item {
+              .circle {
+                right: 18.5px;
+              }
+              .lifetime-description {
+                .progress {
+                  .bg-custom-red {
+                    background: linear-gradient(
+                      to left,
+                      $mainColor 90%,
+                      transparent 100%
+                    ) !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .skills {
+      .unorder-list {
+        @media (max-width: 575px) {
+          justify-content: flex-end;
+          padding-right: 100px;
+        }
+        ul {
+          li {
+            .skill-icons {
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  /* End Resume */
+
+  /* Start Contact */
+  .contact {
+    .contact-body {
+      .list-unstyled {
+        padding: 0;
+      }
+      .contact-form {
+        .contact-label {
+          &.active {
+            &.contact-label-normal {
+              transform: translate(-1px, -45px);
+            }
+            &.contact-label-message {
+              transform: translate(-1px, -115px);
+            }
+          }
+        }
+        .contact-label-normal {
+          transform: translate(-10px, -30px);
+        }
+        .contact-label-message {
+          transform: translate(-10px, -100px);
+        }
+      }
+    }
+  }
+  /* End Contact */
+
+  /* Start Error */
+  .error {
+    .error-container {
+      .circles {
+        .contact-btn {
+          .submit-btn-item {
+            a {
+              .back-icon {
+                transform: rotate(180deg);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* End Error */
+}

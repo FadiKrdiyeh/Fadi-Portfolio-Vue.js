@@ -1,0 +1,72 @@
+{
+  "header": {
+    "Fadi ": "فادي ",
+    "Krdiyeh": "كردية",
+    "Home": "الصفحة الرئيسية",
+    "Resume": "السيرة الذاتية",
+    "Portfolio": "الملف الشخصي",
+    "Contact": "تواصل معي"
+  },
+  "homePage": {
+    "Fadi Krdiyeh": "فادي كردية",
+    "Full-stack Web Developer": "مطور ويب متكامل",
+    "Web Developer": "مطور ويب",
+    "Web Designer": "مصمم ويب",
+    "Front-End Developer": "مطور الواجهة الأمامية",
+    "Back-End Developer": "مطور الواجهة الخلفية",
+    "About": "عنـ",
+    "Me": "ـي",
+    "About me text": "أهلاً! أنا فادي كردية. من سوريا وعمري {msg} سنة. أنا مطور متكامل متحمس لبناء تجربة مستخدم رائعة، والقتال من أجل البساطة على التعقيد، والتعلم المستمر. عندما لا أقوم بالبرمجة ، ستجدني أتعلم المزيد والمزيد.",
+    "Facebook:": "فيسبوك:",
+    "Telegram:": "تليغرام:",
+    "Instagram:": "انستغرام:",
+    "E-mail:": "إيميل:",
+    "WhatsApp And Phone Number:": "واتس أب و رقم الموبايل:"
+  },
+  "resume": {
+    "Experience": "الخبرة",
+    "Education": "التعليم",
+    "present": "حتى الآن",
+    "Full Stack Developer": "مطور متكامل",
+    "Front End Developer": "مطور الواجهة الأمامية",
+    "Back End Developer": "مطور الواجهة الخلفية",
+    "Applied College": "الكلية التطبيقية",
+    "Computer Technology Sciences": "علوم تقنيات الحاسوب",
+    "Computer Technical Institute": "معهد تقنيات الحاسوب",
+    "Graduated From Computer Technical Institute": "متخرج من معهد تقنيات الحاسوب",
+    "My skills": "مهاراتي",
+    "Others:": "مهارات أخرى:",
+    "Microsoft office": "مايكروسوفت أوفيس.",
+    "The ability to learn anything quickly": "القدرة على تعلم أي شيء بسرعة.",
+    "Remote working": "العمل عن بعد.",
+    "Im social and I accept advices and warnings": "اجتماعي، أقبل النصائح و التحذيرات.",
+    "Soon I will probably learn other things like Wordpress React Angular ASPNet Photoshop etc": "قريباً، ربما سأتعلم أشياء أخرى مثل: Wordpress, React, Angular, ASP.Net, Photoshop, الخ...",
+    "Download Resume": "تحميل السيرة الذاتية"
+  },
+  "portfolio": {
+    "Sorry, There Is No Hosted Projects Except This Now": "عذرا ، لا توجد مشاريع مستضافة باستثناء هذا الآن!!"
+  },
+  "contact": {
+    "GetIn": "ابقى على ",
+    "Touch": "تواصل",
+    "Syria": "سوريا، ",
+    "Hama - Salamiyeh": "حماة - السلمية",
+    "Freelance": "العمل الحر ",
+    "Available": "متاح",
+    "Contact": " نموذج ",
+    "Form": " التواصل ",
+    "Name": "الاسم",
+    "Email": "الإيميل",
+    "Message": "الرسالة",
+    "Send Message": "إرسال الرسالة",
+    "Clear": "مسح"
+  },
+  "error": {
+    "PAGE NOT FOUND": "لم يتم العثور على الصفحة",
+    "Home": "الصفحة الرئيسية"
+  },
+  "footer": {
+    "Developed With": "تم تطويره بـ",
+    "And": " و "
+  }
+}

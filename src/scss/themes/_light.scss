@@ -1,0 +1,420 @@
+body {
+  .light-theme {
+    *::selection {
+      background-color: #222;
+      color: rgba(238, 238, 238, 0.774);
+    }
+    background-color: $bgLight;
+    color: $fgLight;
+    /* Start App Header */
+    .header {
+      background-color: $bgLight;
+      color: $fgLight;
+      box-shadow: 0 0 10px #000;
+      .nav {
+        .logo {
+          #fadi {
+            color: $fgLight;
+            text-shadow: 0 0 15px $fgLight;
+          }
+          #krdiyeh {
+            color: $mainColor;
+            text-shadow: 0 0 15px $mainColor;
+          }
+        }
+        .navbar-toggler {
+          border: 3px solid $fgLight;
+          &:focus {
+            box-shadow: 0 0 15px $fgLight;
+          }
+          .navbar-toggler-icon {
+            color: $fgLight;
+          }
+        }
+        .links {
+          .nav-item {
+            .aaa {
+              color: $fgLight;
+              &::after {
+                // background: linear-gradient(to right, rgb(0, 200, 107) 0%, $bgLight 100%);
+                background: linear-gradient(
+                  to right,
+                  $mainColor 0%,
+                  $bgLight 100%
+                );
+              }
+              &.router-link-active {
+                // color: rgb(0, 200, 107);
+                color: $mainColor;
+                text-shadow: 0 0 15px $mainColor;
+                &::after {
+                  // box-shadow: 0 0 10px rgb(0, 200, 107);
+                  box-shadow: -15px 0 10px $mainColor;
+                }
+              }
+              &:hover {
+                color: rgb(255, 0, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+    /* End App Header */
+    /* Start Home View */
+    .home {
+      .coder {
+        color: rgba(27, 27, 27, 0.786);
+        text-shadow: 0 0 10px $fgLight;
+        &::after {
+          background-image: linear-gradient(
+            0deg,
+            rgba(27, 27, 27, 0.686) 0,
+            transparent 70%
+          );
+        }
+      }
+      .my-image {
+        border: 2px solid #999;
+      }
+      .code {
+        color: $fgLight;
+        background-color: $bgLight;
+        text-shadow: 0 0 10px $fgLight;
+      }
+      .name-skills {
+        .my-name,
+        .my-skills {
+          color: $mainColor;
+        }
+        .my-name {
+          text-shadow: 0 0 10px $mainColor, 0 0 20px $mainColor,
+            0 0 40px $mainColor, 0 0 80px $mainColor, 0 0 160px $mainColor;
+        }
+        .my-skills {
+          text-shadow: 0 0 10px $fgLight, 0 0 20px $fgLight, 0 0 40px $fgLight,
+            0 0 80px $fgLight, 0 0 160px $fgLight;
+        }
+      }
+      .about-me-container {
+        .about-me-home {
+          .about-me-title {
+            text-shadow: 0 0 15px $fgLight;
+            color: $fgLight;
+            span {
+              text-shadow: 0 0 15px $mainColor;
+              color: $mainColor;
+            }
+          }
+          .about-me-text {
+            color: #555;
+          }
+        }
+      }
+      .contact-me {
+        background: radial-gradient(#999, transparent 70%);
+        &::before {
+          background: rgba(0, 0, 0, 0.1);
+          border-top: 1px solid rgba(0, 0, 0, 0.5);
+        }
+        .contact-list {
+          li {
+            a {
+              color: $fgLight;
+              border: 1px solid rgba(0, 0, 0, 0.4);
+              border-right: 1px solid rgba(0, 0, 0, 0.2);
+              border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+              background: rgba(0, 0, 0, 0.1);
+              box-shadow: 0 5 px 45px rgba(0, 0, 0, 0.1);
+              &::before {
+                background: rgba(255, 255, 255, 0.5);
+              }
+            }
+          }
+        }
+        .view-content {
+          color: $fgLight;
+          text-shadow: 0 0 10px $fgLight;
+        }
+      }
+    }
+    /* End Home View */
+    /* Start Resume View */
+    .resume {
+      > .row {
+        .education-experience {
+          .education-experience-title {
+            color: $fgLight;
+            text-shadow: 0 0 10px $fgLight;
+          }
+          .education-experience-body {
+            .lifetime {
+              color: $fgLight;
+              &::before {
+                background: hsla(0, 0%, 0%, 0.12);
+              }
+              .lifetime-item {
+                .circle {
+                  background: $mainColor;
+                  border: 3px solid #aaa;
+                }
+                .lifetime-date {
+                  color: $mainColor;
+                }
+                .lifetime-description {
+                  .progress {
+                    background-color: #ccc;
+                    .bg-custom-red {
+                      background-color: $mainColor;
+                      background: linear-gradient(
+                        to right,
+                        $mainColor 90%,
+                        transparent 100%
+                      );
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .skills {
+        color: $fgLight;
+        .skills-title {
+          color: $fgLight;
+          text-shadow: 0 0 15px $fgLight;
+        }
+        .unorder-list {
+          ul {
+            li {
+              color: rgba(73, 73, 73, 0.76);
+              .skill-icons {
+                color: rgb(211, 137, 0);
+              }
+            }
+          }
+        }
+      }
+      .download-cv-button {
+        .btn-download {
+          background: #d6d6d6;
+          color: $fgLight;
+          text-shadow: 0 0 15px $fgLight;
+          border: 1px solid #999;
+          &::before {
+            background: rgba(215, 0, 0, 0.85);
+            background: $mainColor;
+          }
+          span {
+            .download-icons {
+              color: rgb(211, 137, 0);
+            }
+          }
+        }
+      }
+    }
+    /* End Resume View */
+    /* Start Portfolio View */
+    .portfolio {
+      .title {
+        color: rgba(0, 0, 0, 0.534);
+      }
+    }
+    /* End Portfolio View */
+    /* Start Contact View */
+    .contact {
+      .contact-title {
+        color: $fgLight;
+        text-shadow: 0 0 15px $fgLight;
+        span {
+          color: $mainColor;
+          text-shadow: 0 0 15px $mainColor;
+        }
+      }
+      .contact-body {
+        color: $fgLight;
+        .list-item {
+          color: $fgLight;
+          .contact-icon {
+            color: $mainColor;
+          }
+          span {
+            color: $mainColor;
+          }
+        }
+        .contact-form {
+          .contact-item {
+            border-bottom: 1px solid $fgLight;
+            color: $fgLight;
+            &.active {
+              border-bottom: 1px solid $mainColor;
+            }
+          }
+          .contact-label {
+            color: rgba(0, 0, 0, 0.432);
+            &.active {
+              color: $mainColor;
+            }
+          }
+          .input-errors {
+            color: #9eb300;
+          }
+          .contact-item-btn {
+            background: $mainColor;
+            border: 1px solid #444;
+            color: $fgLight;
+          }
+          .contact-btn {
+            .submit-btn-item {
+              background: rgba(0, 0, 0, 0.01);
+              box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+              border-top: 1px solid rgba(255, 255, 255, 0.1);
+              border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+              color: $fgLight;
+              text-shadow: 0 0 15px $fgLight;
+              &:disabled {
+                color: rgba(0, 0, 0, 0.589);
+                text-shadow: none;
+              }
+              &::before {
+                background: linear-gradient(
+                  to left,
+                  rgba(255, 255, 255, 0.15),
+                  transparent
+                );
+              }
+            }
+            &::before {
+              background: $mainColor;
+            }
+            &::after {
+              background: $mainColor;
+            }
+            &.submit {
+              &::before,
+              &::after {
+                background: $mainColor;
+                box-shadow: 0 0 5px $mainColor, 0 0 15px $mainColor,
+                  0 0 30px $mainColor, 0 0 60px $mainColor;
+              }
+            }
+            &.clear {
+              &::before,
+              &::after {
+                background: rgba(0, 0, 0, 0.5);
+                box-shadow: 0 0 5px rgb(124, 124, 124),
+                  0 0 15px rgb(124, 124, 124), 0 0 30px rgb(124, 124, 124),
+                  0 0 60px rgb(124, 124, 124);
+              }
+            }
+          }
+        }
+      }
+    }
+    /* End Contact View */
+
+    /* Start Error View */
+    .error {
+      .error-container {
+        .circles {
+          p {
+            color: $mainColor;
+          }
+          .circle {
+            &.small {
+              background: rgba(179, 0, 0, 0.76);
+            }
+            &.med {
+              background: rgba(104, 0, 0, 0.808);
+            }
+            &.big {
+              background: rgba(255, 0, 0, 0.601);
+            }
+          }
+          .contact-btn {
+            .submit-btn-item {
+              background: rgba(0, 0, 0, 0.664);
+              box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+              border-top: 1px solid rgba(255, 255, 255, 0.1);
+              border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+              &::before {
+                background: linear-gradient(
+                  to left,
+                  rgba(255, 255, 255, 0.15),
+                  transparent
+                );
+              }
+              a {
+                color: $bgLight;
+              }
+            }
+            &::before {
+              background: $mainColor;
+            }
+            &::after {
+              background: $mainColor;
+            }
+          }
+        }
+      }
+    }
+    /* End Error View */
+
+    /* Start Footer */
+    .footer {
+      color: $fgLight;
+      box-shadow: 0 0 10px #000;
+      .footer-content-left {
+        .love {
+          color: $mainColor;
+          text-shadow: 0 0 15px $mainColor;
+          filter: drop-shadow(0 0 8px $mainColor);
+        }
+        .vue-image {
+          filter: drop-shadow(0 0 8px rgb(0, 148, 44));
+        }
+      }
+    }
+    /* End Footer */
+    /* Start Vue Writer */
+    .code {
+      .is-typed {
+        .cursor {
+          animation: blinkLight 0.5s 15;
+        }
+      }
+    }
+    .name-skills {
+      .my-name {
+        .is-typed {
+          .cursor {
+            animation: blinkLight 1s 8;
+          }
+        }
+      }
+      .my-skills {
+        .is-typed {
+          .typed {
+            color: $fgLight;
+          }
+          .cursor {
+            animation: blinkLight 1s infinite;
+          }
+        }
+      }
+    }
+    @keyframes blinkLight {
+      49% {
+        background-color: $fgLight;
+      }
+      50% {
+        background-color: transparent;
+      }
+      99% {
+        background-color: transparent;
+      }
+    }
+    /* End Vue Writer */
+  }
+}

@@ -1,0 +1,418 @@
+body {
+  .dark-theme {
+    *::selection {
+      background-color: rgba(238, 238, 238, 0.774);
+      color: #222;
+    }
+    background-color: $bgDark;
+    color: $fgDark;
+    /* Start App Header */
+    .header {
+      background-color: $bgDark;
+      color: $fgDark;
+      box-shadow: 0 0 10px #000;
+      .nav {
+        .logo {
+          #fadi {
+            color: $fgDark;
+            text-shadow: 0 0 15px $fgDark;
+          }
+          #krdiyeh {
+            color: $mainColor;
+            text-shadow: 0 0 15px $mainColor;
+          }
+        }
+        .navbar-toggler {
+          border: 3px solid $fgDark;
+          &:focus {
+            box-shadow: 0 0 15px $fgDark;
+          }
+          .navbar-toggler-icon {
+            color: $fgDark;
+          }
+        }
+        .links {
+          .nav-item {
+            .aaa {
+              color: $fgDark;
+              &::after {
+                // background: linear-gradient(to right, rgb(0, 200, 107) 0%, $bgDark 100%);
+                background: linear-gradient(
+                  to right,
+                  $mainColor 0%,
+                  $bgDark 100%
+                );
+              }
+              &.router-link-active {
+                // color: rgb(0, 200, 107);
+                color: $mainColor;
+                text-shadow: 0 0 15px $mainColor;
+                &::after {
+                  // box-shadow: 0 0 10px rgb(0, 200, 107);
+                  box-shadow: -15px 0 10px $mainColor;
+                }
+              }
+              &:hover {
+                color: rgb(255, 0, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+    /* End App Header */
+    /* Start Home View */
+    .home {
+      .coder {
+        color: rgba(200, 200, 200, 0.786);
+        text-shadow: 0 0 10px $fgDark;
+        &::after {
+          background-image: linear-gradient(
+            0deg,
+            rgba(200, 200, 200, 0.686) 0,
+            transparent 70%
+          );
+        }
+      }
+      .my-image {
+        border: 2px solid #999;
+      }
+      .code {
+        color: $fgDark;
+        background-color: $bgDark;
+        text-shadow: 0 0 10px $fgDark;
+      }
+      .name-skills {
+        .my-name,
+        .my-skills {
+          color: $mainColor;
+        }
+        .my-name {
+          text-shadow: 0 0 10px $mainColor, 0 0 20px $mainColor,
+            0 0 40px $mainColor, 0 0 80px $mainColor, 0 0 160px $mainColor;
+        }
+        .my-skills {
+          text-shadow: 0 0 10px $fgDark, 0 0 20px $fgDark, 0 0 40px $fgDark,
+            0 0 80px $fgDark, 0 0 160px $fgDark;
+        }
+      }
+      .about-me-container {
+        .about-me-home {
+          .about-me-title {
+            text-shadow: 0 0 15px $fgDark;
+            color: $fgDark;
+            span {
+              text-shadow: 0 0 15px $mainColor;
+              color: $mainColor;
+            }
+          }
+          .about-me-text {
+            color: #ccc;
+          }
+        }
+      }
+      .contact-me {
+        background: radial-gradient(#777, transparent 70%);
+        &::before {
+          background: rgba(255, 255, 255, 0.1);
+          border-top: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .contact-list {
+          li {
+            a {
+              color: $fgDark;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              border-right: 1px solid rgba(255, 255, 255, 0.2);
+              border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+              background: rgba(255, 255, 255, 0.1);
+              box-shadow: 0 5 px 45px rgba(0, 0, 0, 0.1);
+              &::before {
+                background: rgba(255, 255, 255, 0.5);
+              }
+            }
+          }
+        }
+        .view-content {
+          color: $fgDark;
+          text-shadow: 0 0 10px $fgDark;
+        }
+      }
+    }
+    /* End Home View */
+    /* Start Resume View */
+    .resume {
+      > .row {
+        .education-experience {
+          .education-experience-title {
+            color: $fgDark;
+            text-shadow: 0 0 10px $fgDark;
+          }
+          .education-experience-body {
+            .lifetime {
+              color: $fgDark;
+              &::before {
+                background: hsla(0, 0%, 100%, 0.12);
+              }
+              .lifetime-item {
+                .circle {
+                  background: $mainColor;
+                  border: 3px solid #666;
+                }
+                .lifetime-date {
+                  color: $mainColor;
+                }
+                .lifetime-description {
+                  .progress {
+                    background-color: #ccc;
+                    .bg-custom-red {
+                      background-color: $mainColor;
+                      background: linear-gradient(
+                        to right,
+                        $mainColor 90%,
+                        transparent 100%
+                      );
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .skills {
+        color: $fgDark;
+        .skills-title {
+          color: $fgDark;
+          text-shadow: 0 0 15px $fgDark;
+        }
+        .unorder-list {
+          ul {
+            li {
+              color: rgba(204, 204, 204, 0.76);
+              .skill-icons {
+                color: rgb(211, 137, 0);
+              }
+            }
+          }
+        }
+      }
+      .download-cv-button {
+        .btn-download {
+          background: #363636;
+          color: $fgDark;
+          text-shadow: 0 0 15px $fgDark;
+          border: 1px solid #444;
+          &::before {
+            background: rgba(215, 0, 0, 0.85);
+            background: $mainColor;
+          }
+          span {
+            .download-icons {
+              color: rgb(211, 137, 0);
+            }
+          }
+        }
+      }
+    }
+    /* End Resume View */
+    /* Start Portfolio View */
+    .portfolio {
+      .title {
+        color: rgba(255, 255, 255, 0.363);
+      }
+    }
+    /* End Portfolio View */
+    /* Start Contact View */
+    .contact {
+      .contact-title {
+        color: $fgDark;
+        text-shadow: 0 0 15px $fgDark;
+        span {
+          color: $mainColor;
+          text-shadow: 0 0 15px $mainColor;
+        }
+      }
+      .contact-body {
+        color: $fgDark;
+        .list-item {
+          color: $fgDark;
+          .contact-icon {
+            color: $mainColor;
+          }
+          span {
+            color: $mainColor;
+          }
+        }
+        .contact-form {
+          .contact-item {
+            border-bottom: 1px solid $fgDark;
+            color: $fgDark;
+            &.active {
+              border-bottom: 1px solid $mainColor;
+            }
+          }
+          .contact-label {
+            color: rgba(255, 255, 255, 0.432);
+            &.active {
+              color: $mainColor;
+            }
+          }
+          .input-errors {
+            color: #e3ff05;
+          }
+          .contact-item-btn {
+            background: $mainColor;
+            border: 1px solid #444;
+            color: $fgDark;
+          }
+          .contact-btn {
+            .submit-btn-item {
+              background: rgba(0, 0, 0, 0.01);
+              box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+              border-top: 1px solid rgba(255, 255, 255, 0.1);
+              border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+              color: $fgDark;
+              text-shadow: 0 0 15px $fgDark;
+              &:disabled {
+                color: rgba(255, 255, 255, 0.589);
+                text-shadow: none;
+              }
+              &::before {
+                background: linear-gradient(
+                  to left,
+                  rgba(255, 255, 255, 0.15),
+                  transparent
+                );
+              }
+            }
+            &::before {
+              background: $mainColor;
+            }
+            &::after {
+              background: $mainColor;
+            }
+            &.submit {
+              &::before,
+              &::after {
+                background: $mainColor;
+                box-shadow: 0 0 5px $mainColor, 0 0 15px $mainColor,
+                  0 0 30px $mainColor, 0 0 60px $mainColor;
+              }
+            }
+            &.clear {
+              &::before,
+              &::after {
+                background: rgba(0, 0, 0, 0.5);
+                box-shadow: 0 0 5px rgb(124, 124, 124),
+                  0 0 15px rgb(124, 124, 124), 0 0 30px rgb(124, 124, 124),
+                  0 0 60px rgb(124, 124, 124);
+              }
+            }
+          }
+        }
+      }
+    }
+    /* End Contact View */
+    /* Start Error View */
+    .error {
+      .error-container {
+        .circles {
+          p {
+            color: rgb(215, 0, 0);
+          }
+          .circle {
+            &.small {
+              background: rgba(179, 0, 0, 0.76);
+            }
+            &.med {
+              background: rgba(104, 0, 0, 0.808);
+            }
+            &.big {
+              background: rgba(255, 0, 0, 0.601);
+            }
+          }
+          .contact-btn {
+            .submit-btn-item {
+              background: rgba(0, 0, 0, 0.01);
+              box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+              border-top: 1px solid rgba(255, 255, 255, 0.1);
+              border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+              &::before {
+                background: linear-gradient(
+                  to left,
+                  rgba(255, 255, 255, 0.15),
+                  transparent
+                );
+              }
+              a {
+                color: $fgDark;
+              }
+            }
+            &::before {
+              background: rgb(215, 0, 0);
+            }
+            &::after {
+              background: rgb(215, 0, 0);
+            }
+          }
+        }
+      }
+    }
+    /* End Error View */
+    /* Start Footer */
+    .footer {
+      color: $fgDark;
+      box-shadow: 0 0 10px #000;
+      .footer-content-left {
+        .love {
+          color: $mainColor;
+          text-shadow: 0 0 15px $mainColor;
+          filter: drop-shadow(0 0 8px $mainColor);
+        }
+        .vue-image {
+          filter: drop-shadow(0 0 8px rgb(0, 148, 44));
+        }
+      }
+    }
+    /* End Footer */
+    /* Start Vue Writer */
+    .code {
+      .is-typed {
+        .cursor {
+          animation: blinkDark 0.5s 15;
+        }
+      }
+    }
+    .name-skills {
+      .my-name {
+        .is-typed {
+          .cursor {
+            animation: blinkDark 1s 8;
+          }
+        }
+      }
+      .my-skills {
+        .is-typed {
+          .typed {
+            color: $fgDark;
+          }
+          .cursor {
+            animation: blinkDark 1s infinite;
+          }
+        }
+      }
+    }
+    @keyframes blinkDark {
+      49% {
+        background-color: $fgDark;
+      }
+      50% {
+        background-color: transparent;
+      }
+      99% {
+        background-color: transparent;
+      }
+    }
+    /* End Vue Writer */
+  }
+}
